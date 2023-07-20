@@ -22,23 +22,60 @@
 body {
   background-color: black;
   color: white;
+  height: 100vh;
+  width: 100%;
+}
+
+.btn {
+  color: white;
+  background-color: grey;
+  padding: 5px 5px;
+  border-radius: 5px;
+  height: 10px;
+  margin-left: 8px;
+}
+
+a {
+text-decoration: none;
+color: white;
 }
 
 /* Topbar */
 
 .topbar {
-  height: 80px;
+  height: 70px;
+  justify-content: end;
 }
+
+.settings {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
 
 /* Main */
 
 .cam {
-  height: calc(100vh - 180px);
+  height: calc(100vh - 150px);
   overflow: auto;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  width: 40vh;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /* Bottombar  */
 
 .bottom-bar {
-  height: 100px;
+  height: 80px;
 }
