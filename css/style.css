@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1400px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.debug {
+  background-color: tomato;
+  border: 1px solid white;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Topbar */
+
+.topbar {
+  height: 80px;
+}
+
+/* Main */
+
+.cam {
+  height: calc(100vh - 180px);
+  overflow: auto;
+}
+
+/* Bottombar  */
+
+.bottom-bar {
+  height: 100px;
+}
