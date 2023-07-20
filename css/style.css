@@ -14,6 +14,10 @@
   display: flex;
 }
 
+.green {
+  color: #4bc800;
+}
+
 .debug {
   background-color: tomato;
   border: 1px solid white;
@@ -88,11 +92,7 @@ line-height: 100%;
 
 .bottom-bar {
   height: 80px;
-}
-
-.media,.exit {
-  width: 25%;
-  height: 100%;
+  min-width: 1200px;
 }
 
 .icons {
@@ -100,10 +100,15 @@ line-height: 100%;
   height: 100%;
 }
 
-.media a i{
-  font-size: 2.5rem;
+.media,.exit {
+  width: 25%;
+  height: 100%;
+}
+
+.media a i {
+  font-size: 1.3rem;
   display: block;
-  padding: 0 10px;
+  padding: 0 20px 5px;
 }
 
 .media {
@@ -111,12 +116,41 @@ line-height: 100%;
   text-align: center;
 }
 
+.icons .icon a .info{
+  font-size: .8rem;
+}
+
 .icons a i{
-  font-size: 2.5rem;
+  font-size: 1.3rem;
   display: block;
-  padding: 0 10px;
+  padding: 0 20px 5px;
 }
 
 .icons {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  text-align: center;
+}
+
+.exit {
+  justify-content: end;
   
 }
+
+.button {
+  width: 100px;
+  height: 100%;
+  background-color: rgb(50, 50, 50);
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.bottom-bar {
+background-color: rgb(30, 30, 30) ;
+}
+
+
