@@ -38,6 +38,7 @@ body {
 a {
 text-decoration: none;
 color: white;
+line-height: 100%;
 }
 
 /* Topbar */
@@ -87,4 +88,35 @@ color: white;
 
 .bottom-bar {
   height: 80px;
+}
+
+.media,.exit {
+  width: 25%;
+  height: 100%;
+}
+
+.icons {
+  width: 50%;
+  height: 100%;
+}
+
+.media a i{
+  font-size: 2.5rem;
+  display: block;
+  padding: 0 10px;
+}
+
+.media {
+  align-items: center;
+  text-align: center;
+}
+
+.icons a i{
+  font-size: 2.5rem;
+  display: block;
+  padding: 0 10px;
+}
+
+.icons {
+  
 }
